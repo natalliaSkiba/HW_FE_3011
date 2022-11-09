@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.composition{
+    width: 600px;
+    height: 400px;
+    background-image: url("https://raw.githubusercontent.com/zubaryk/cosmos1/main/bg.jpg");
+    position: relative;
+
+}
+.planet-1{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+
+}
+.planet-2{
+    position: absolute;
+    top: 50px;
+    left: 65px;
+
+}
+.planet-3{
+    position: absolute;
+    top: 140px;
+    left: 150px;
+
+}
+.spaceship{
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.superman{
+    position: absolute;
+    bottom: 0;
+    right: 33px;
+}
+.asteroid{
+    position: absolute;
+    top: 65px;
+    right: 55px;
+}
+.ufo{
+    position: absolute;
+    bottom: 50px;
+    left: 130px;
+}

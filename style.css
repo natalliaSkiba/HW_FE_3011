@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.block{
+    /* border: 5px solid yellow; */
+    /* padding: 10px; */
+    border-radius: 50% ;
+    margin: 10px auto;
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    
+}
+/* .block div{
+    font-size: 18px;
+    text-align: center;
+} */
+.block1, .block2{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+/* margin: 20px; */
+position:absolute;
+background-color: white;
+border: 2px solid white;
+}
+.block1{
+    /* margin: 20px ; */
+    /* background-color: white;
+    border: 2px solid white; */
+    /* position: absolute; */
+    top: 40px;
+    left: 60px;
+    /* z-index: 2; */
+}
+
+.block2{
+    /* background-color: aquamarine;
+    border: 2px solid aquamarine; */
+    right: 60px;
+    top: 40px;
+    /* z-index: 1; */
+}
+.block3{
+    background-color: white;
+     border: 2px solid white;
+     position: absolute;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     /* --block-width: 70px;
+     width: var(--block-width);
+     left: calc(50% - var(--block-width) / 2); */
+    z-index: 2;
+   
+     top: 110px;
+     left: 130px;
+}
+.block4{
+    background-color: white;
+     border: 2px solid aquamarine;
+     border-radius: 50%;
+     position: absolute;
+     width: 150px;
+     height: 100px;
+    z-index: 1;
+     top: 180px;
+     left: 80px;
+}
+.block5{
+    background-color: aquamarine;
+     border: 2px solid aquamarine;
+     border-radius: 50%;
+     position: absolute;
+
+     width: 150px;
+     height: 100px;
+     z-index: 3;
+     top: 200px;
+     left: 80px;
+    }
